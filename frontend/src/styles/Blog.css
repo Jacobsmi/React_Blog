@@ -1,0 +1,21 @@
+#HeaderText{
+    text-align: center;
+}
+.Filterer{
+    position: absolute;
+    right: 5vw;
+    width: 8vw;
+    height: 40vh;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 5px;
+}
+.FiltererHeader{
+    text-align: center;
+}
+.Post{
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    border: 1px solid black;
+}
