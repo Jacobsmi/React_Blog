@@ -1,4 +1,5 @@
 import '../styles/Blog.css';
+import {Link} from 'react-router-dom';
 import React, {useState, useEffect} from 'react';
 import Post from '../components/blog/Post';
 import Filterer from '../components/blog/Filterer';
@@ -38,6 +39,8 @@ const Blog = () =>{
         <div className='Blog'>
             <div className='Header'>
                 <h1 id='HeaderText'>My Blog</h1>
+                <Link id='LoginLink' to='/Login'>Login</Link>
+                <Link id='SignUpLink' to='/SignUp'>Sign Up</Link>
             </div>
             <Filterer handleClick={handleClick} allPosts={allPosts}/>
             <div className='Posts'>
